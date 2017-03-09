@@ -1,0 +1,10 @@
+version: '2'
+services:
+  elasticsearch:
+    restart: ""
+
+  cerebro:
+    image: yannart/cerebro:latest
+    ports:
+      - "9000:9000"
+    restart: ""
